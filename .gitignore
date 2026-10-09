@@ -1,0 +1,19 @@
+
+# Maven build output
+target/
+
+# Eclipse workspace metadata
+.metadata/
+.settings/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local database configuration (if you use these files)
+application-local.properties
